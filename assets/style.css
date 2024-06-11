@@ -95,16 +95,13 @@ nav a {
 	font-size: 14px;
 }
 
-#gallery {}
+
 
 .title {
 	text-align: center;
 	padding-block: 2em;
 }
 
-.gallery .nav {
-	justify-content: center;
-}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -129,13 +126,7 @@ nav a {
 	padding-bottom: 100%;
 }
 
-.gallery-item {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	padding: .5em;
-}
+
 
 .mg-prev,
 .mg-next {
@@ -402,4 +393,40 @@ input[type="submit"] {
 .h-card a {
 	text-decoration: none;
 	color: #000;
+}
+
+/*gallerie*/
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#all-gallery .active {
+
+	width: 30%;
+	height: 440px;
+	padding: 8px;
+	object-fit: cover;
+}
+
+#all-gallery .inactive {
+
+	width: 0;
+
+}
+
+.menu-modal {
+	width: 100%;
+}
+
+
+
+.all-gallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
