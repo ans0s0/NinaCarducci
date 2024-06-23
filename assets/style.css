@@ -424,9 +424,12 @@ input[type="submit"] {
 
 
 
-.all-gallery {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+
+
+/* modale */
+
+
+.test img {
+	width: 40%;
+
 }
